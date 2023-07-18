@@ -1,0 +1,113 @@
+.wrapper {
+    margin: 35px 0 67px;
+    max-width: 1440px;
+    height: 60px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px 0px;
+}
+
+.contacts {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.contactsText {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.contactsLeft {
+    display: flex;
+    gap: 0px 47px;
+    margin-right: auto;
+    > div {
+        display: flex;
+        gap: 0px 18px;
+    }
+}
+
+.contactsRight {
+    margin-right: 7px;
+    display: flex;
+    gap: 0px 30px;
+}
+
+span {
+    
+
+}
+
+.button {
+    border-radius: 5px;
+    background-color: #5956E9;
+    width: 158px;
+    height: 50px;
+    color: white;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+}
+
+
+
+h6 {
+    color: #232233;
+    transition-delay: 100ms;
+    cursor: pointer;
+    &:hover {
+        text-decoration-line: underline;
+        color: #5956E9
+        
+    }
+}
+
+.nav {
+    padding: 0px 5px 0px 52px;
+    margin: 0px auto;
+    width: 1170px;
+    display: flex;
+    z-index: 1;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    height: 60px;
+    border-radius: 5px;
+
+}
+
+.logo {
+    background-color: white;
+    width: 200px;
+    border-radius: 5px;
+    margin-left: 70px;
+    padding: 31px 17px 31px 16px;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.10);
+}
+
+ul {
+    display: flex;
+    gap: 0px 40px;
+    flex-wrap: nowrap;
+    justify-items: center;
+    align-items: center;
+    height: 60px;
+    background-color: white;
+}
+
+
+

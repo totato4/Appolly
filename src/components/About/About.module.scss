@@ -1,0 +1,41 @@
+@import './../../css/variables';
+
+.wrapper {
+  background: white;
+  
+  margin-bottom: 18px;
+}
+
+
+.container {
+    margin: 120px 135px 120px 161px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px 0px;
+}
+
+.subtitle {
+    @extend %h7;
+    text-align: center;
+}
+
+.textWrap {
+    display: flex;
+    flex-direction: column;
+    gap: 18px 0px;
+    align-items: center;
+    max-width: 601px;
+}
+
+.notTextWrap {
+    display: flex;
+    gap: 0px 188px;
+}
+
+.cardWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px 0px;
+}
