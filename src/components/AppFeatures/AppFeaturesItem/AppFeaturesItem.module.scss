@@ -1,4 +1,15 @@
-.svg {
-  color: white;
-  
+.svg * {
+  fill: white;
+  margin-bottom: 22px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+h5 {
+  white-space: nowrap;
+  margin-bottom: 18px;
 }
