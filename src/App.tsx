@@ -3,6 +3,7 @@ import Header from "./components/Header/Header";
 import DownloadApp from "./components/DownloadApp/DownloadApp";
 import About from "./components/About/About";
 import AppFeatures from "./components/AppFeatures/AppFeatures";
+import AppInterface from "./components/AppInterface/AppInterface";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -17,6 +18,7 @@ function App() {
         <DownloadApp />
         <About />
         <AppFeatures />
+        <AppInterface />
       </div>
     </div>
   );
