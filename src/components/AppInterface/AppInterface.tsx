@@ -17,6 +17,10 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "swiper/css/effect-coverflow";
+import Achieve from "./Achieve/Achieve";
+import download from "../../assets/download.svg";
+import like from "../../assets/like.svg";
+import star from "../../assets/star.svg";
 
 const AppInterface = () => {
   const array = [1, 2, 3, 4, 5];
@@ -193,7 +197,7 @@ const AppInterface = () => {
         <div className={style.download}>
           <div className={style.downloadLeft}>
             <div className={style.text}>
-              <h4>Download App Now</h4>{" "}
+              <h4>Download App Now</h4>
               <span>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
                 nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.
@@ -201,11 +205,18 @@ const AppInterface = () => {
                 Ullamcorper risus tempor, ac nunc libero urna, feugiat.
               </span>
             </div>
-            <div className={style.links}></div>
-            <div className={style.achievs}></div>
+            <div className={style.links}>
+              <img src={`./src/assets/img/GooglePlay1.png`} alt="" />
+              <img src={`./src/assets/img/AppStore1.png`} alt="" />
+            </div>
+            <div className={style.achievs}>
+              <Achieve icon={download} name="DOWNLOAD" state="59865" />
+              <Achieve icon={like} name="LIKE" state="59865" />
+              <Achieve icon={star} name="5 STAR RATING" state="59865" />
+            </div>
           </div>
           <div className={style.downloadImg}>
-            <img src="" alt="" />
+            <img src={`./src/assets/img/appInterfacePhone.png`} alt="image" />
           </div>
         </div>
       </div>

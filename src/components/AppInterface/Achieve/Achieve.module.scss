@@ -1,0 +1,38 @@
+.wrapper {
+    background-color: #5851EA;
+    width: 170px;
+    height: 176px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px 0px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.state {
+    color: var(--white, #FFF);
+    
+        /* H5-25px */
+        font-family: Josefin Sans;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+}
+
+
+.name {
+    color: var(--white, #FFF);
+    
+        /* H6-20px */
+        font-family: Josefin Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px;
+        /* 150% */
+        text-transform: uppercase;
+}
